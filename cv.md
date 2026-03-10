@@ -1,5 +1,5 @@
 # Anastasia Galkovskaya 
-![photo](foto.ipg) 
+![photo](foto.ipg)
 
 ## Content 
 - [Contacts](#Contacts)
