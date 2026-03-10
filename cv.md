@@ -1,5 +1,5 @@
 # Anastasia Galkovskaya 
-![photo]("E:\web\foto.jpg") 
+![photo](foto.jpg) 
 
 ## Content 
 - [Contacts](#Contacts)
