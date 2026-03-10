@@ -75,4 +75,7 @@ I am a student at the Belarusian-Russian University, studying in the PMR-241 gro
 ## Courses 
 * Python Basics Course 
 --- 
+## English
+Level My English level is elementary (A1). I study with a tutor and improve my language skills 
+--- 
 _Copyright by Galkovskaya Anastasia_
