@@ -72,4 +72,7 @@ I am a student at the Belarusian-Russian University, studying in the PMR-241 gro
 * coursework on differential equations 
     * Skills:solving examples
 --- 
+## Courses 
+* Python Basics Course 
+--- 
 _Copyright by Galkovskaya Anastasia_
