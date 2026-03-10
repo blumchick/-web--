@@ -1,5 +1,5 @@
 # Anastasia Galkovskaya 
-![photo](foto.jpg) 
+<img src="photo.jpg" width="200">
 
 ## Content 
 - [Contacts](#Contacts)
