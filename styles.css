@@ -24,7 +24,7 @@ body {
 a { color: inherit; text-decoration: none; }
 img { max-width: 100%; display: block; }
 
-.page { width: 100%; margin: 0 auto; overflow: hidden; }
+.page { width: 100%; margin: 0 auto; overflow: visible; }
 .container { width: 1140px; margin: 0 auto; }
 .section { padding: 100px 0; }
 .section--mint { background: var(--mint); }
@@ -90,7 +90,11 @@ img { max-width: 100%; display: block; }
 .hero {
   background: var(--green);
   padding: 100px 0;
-  min-height: 788px;
+  height: 788px; 
+  position: relative;
+}
+.hero .container {
+  position: relative;
 }
 .hero__inner {
   display: grid;
@@ -107,10 +111,13 @@ img { max-width: 100%; display: block; }
 }
 .hero__author { margin: 24px 0 60px; }
 .hero__image {
-  width: 538px;
-  height: 630px;
-  margin-top: -42px;
-  margin-left: auto;
+  position: absolute;
+  right: 0; 
+  top: 0;
+  transform: translateY(-42px);
+  width: 550px;
+  height: 844px;
+  z-index: 2;
 }
 
 .eyebrow {
@@ -167,6 +174,11 @@ img { max-width: 100%; display: block; }
   cursor: pointer;
 }
 
+.section {
+  position: relative;
+  padding: 100px 0;
+  margin-top: 120px;
+}
 .section-head { max-width: 1100px; }
 .section-head--right { margin-left: auto; max-width: 657px; }
 .section-title {
@@ -174,7 +186,9 @@ img { max-width: 100%; display: block; }
   color: var(--heading);
   font: 400 48px/58px var(--font-serif);
   letter-spacing: -0.02em;
+  max-width: 1002px;
 }
+
 
 .about__grid {
   display: grid;
