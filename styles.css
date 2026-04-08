@@ -8,7 +8,7 @@
   --heading: #177165;
   --white: #ffffff;
   --font-serif: 'Playfair Display', serif; 
-  --font-sans: 'Roboto', sans-serif;
+  --font-sans: 'Roboto', sans-serif; 
 }
 
 * { box-sizing: border-box; }
