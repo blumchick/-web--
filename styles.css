@@ -8,7 +8,7 @@
   --heading: #177165;
   --white: #ffffff;
   --font-serif: 'Playfair Display', serif; 
-  --font-sans: 'Roboto', sans-serif; 
+  --font-sans: 'Roboto', sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -86,7 +86,6 @@ img { max-width: 100%; display: block; }
   font-size: 17px;
   line-height: 29px;
 }
-
 
 .hero {
   background: var(--green);
@@ -174,7 +173,6 @@ img { max-width: 100%; display: block; }
   color: var(--white);
   cursor: pointer;
 }
-
 .section {
   position: relative;
   padding: 100px 0;
@@ -189,7 +187,6 @@ img { max-width: 100%; display: block; }
   letter-spacing: -0.02em;
   max-width: 1002px;
 }
-
 
 .about__grid {
   display: grid;
@@ -455,7 +452,7 @@ img { max-width: 100%; display: block; }
   background: var(--mint);
   padding: 100px 0;
 }
-.container {
+.testimonials .container {
   overflow: hidden;
 }
 .testimonials__cards {
